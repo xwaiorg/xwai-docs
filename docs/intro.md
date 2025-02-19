@@ -28,7 +28,7 @@ sidebar_position: 1
 - DeepSeek R1
 ![Locale Dropdown](./r1.png)
 - DeepSeek-Coder-V2
-![Locale Dropdown](./r1.png)
+![Locale Dropdown](./v2.png)
 ### 3.1 大模型基准测试
 下面提到的所有的大模型基准测试数据集都可以在 Huggingface 上查看到。
 - 示例：**[HumanEval](https://huggingface.co/datasets/openai/openai_humaneval)**
