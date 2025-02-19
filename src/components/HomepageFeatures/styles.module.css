@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.featureBox {
+  background-color:rgb(247, 243, 243);
+  box-shadow: 0 4px 8px rgba(129, 128, 128, 0.1); /* 添加阴影效果 */
+  border-radius: 8px; /* 添加圆角 */
+  border: 1px solid #eaeaea; /* 添加边框 */
+  padding: 20px; /* 添加内边距 */
+  margin: 10px; /* 添加外边距 */
+  height: 78%; /* 确保高度一致 */
+}

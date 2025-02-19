@@ -1,0 +1,38 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 8.5rem 0;
+  text-align: center;
+  color: #97dff7;
+  position: relative;
+  overflow: hidden;
+  background-image: url('/img/hero.png');
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+
+/* 为 contentContainer 类添加新的样式 */
+.contentContainer {
+  /* 设置容器宽度，这里设置为 50%，可根据需求调整 */
+  width: 33%;
+  /* 让容器靠右对齐 */
+  margin-left: auto;
+  /* 设置内边距，让内容与容器边缘有一定间隔 */
+  padding: 0 20px;
+  /* 让容器内的文字和按钮左对齐 */
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
