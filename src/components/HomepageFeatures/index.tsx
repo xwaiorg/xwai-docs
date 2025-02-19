@@ -38,6 +38,15 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
+    title: '自动代码修复',
+    // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <div style={{ textAlign: 'left' }}>
+        一旦检测到问题，AI 编程工具会迅速给出修复建议，甚至直接自动完成修复。
+      </div>
+    ),
+  },
+  {
     title: '自动生成代码注释',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
@@ -51,16 +60,7 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <div style={{ textAlign: 'left' }}>
-        AI 编程工具能够根据提供的代码仓库进行全局代码分析，自动生成相关的技术文档，非常方便对已有仓库进行重构和升级。
-      </div>
-    ),
-  },
-  {
-    title: '自动生成流程图',
-    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <div style={{ textAlign: 'left' }}>
-        AI 编程工具能够根据需求，自动生成流程图，提升建模效率。
+        1. AI 编程工具能够根据代码自动生成相关的技术文档，非常方便对已有仓库进行重构和升级；2. 对于新的需求，可以根据需求生成技术方案，方便快速编程；
       </div>
     ),
   },

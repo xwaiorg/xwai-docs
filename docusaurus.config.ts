@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'XW AI 编程工具',
-  tagline: 'AI 让一切变的简单',
+  tagline: '使用 AI 编程工具写代码，就像玩游戏开了外挂一样简单',
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
