@@ -14,7 +14,12 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    color: white;
+    height: 19rem;
+    padding: 4.2rem 0rem;        /* 移动端：上下内边距4.2rem，左右无间距 */
+    background-size: 140% auto; /* 背景图宽度放大150%，高度自动适配 */
+    background-position: left;  /* 背景图左对齐显示 */
+    background-repeat: no-repeat; /* 禁止背景图重复平铺 */
   }
 }
 
@@ -31,8 +36,56 @@
   text-align: left;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
+/* 新增移动端内容容器适配 */
+@media screen and (max-width: 996px) {
+  .contentContainer {
+    width: 60%; /* 盒子占屏幕的比例 */
+    margin-left: 0.7rem; /* 新增：抵消父容器残留间距 */
+    /* 让容器内的文字和按钮左对齐 */
+    text-align: left;
+    padding-left: 0; /* 清除左内边距 */
+  }
+  .titleText {
+    font-size: 23px;
+    margin-left: 0;  /* 清除文字自身外边距 */
+    padding-left: 0; /* 清除文字自身内边距 */
+    margin-top: 3rem;
+  }
+  .subtitleText {
+    font-size: 15px;
+    margin-left: 0;  /* 清除文字自身外边距 */
+    padding-left: 0; /* 清除文字自身内边距 */
+    margin-bottom: 2rem !important;
+  }
+  .buttons {
+    /* 横向排列按钮，按钮之间保持间距 */
+    display: flex;
+    /* 设置按钮间距为1rem */
+    gap: 1.5rem;
+    /* 左对齐按钮组 */
+    justify-content: left;
+    margin-bottom: 1rem;
+  }
+    /* 新增按钮尺寸控制 */
+  .buttons a {
+    background-color: #0aa4d7ab !important;
+    /* 新增边框样式 */
+    border: 3px solid #0aa4d746 !important;  /* 边框颜色设置为蓝色 */
+    color: white !important;  
+    text-align: center;
+    width: 120px; 
+    height: 39px;       /* 高度为 35px */
+    font-size: 16px;    /* 字体大小为 12px */
+    line-height: 33px;  /* 行高为 35px */
+    padding: 0;         /* 内边距为 0 */
+    margin: 0px;          /* 外边距为 0 */
+  }
+  }
+
+  .buttons {
+    display: flex; /* 横向排列排列 */
+    /* 设置按钮间距为1rem */
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: left;
+  }

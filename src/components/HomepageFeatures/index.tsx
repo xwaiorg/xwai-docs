@@ -11,20 +11,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '自动生成代码',
+    title: '自动代码生成及代码补全',
     // Svg: require('@site/static/img/logo.svg').default,
     description: (
       <div style={{ textAlign: 'left' }}>
-        AI 编程工具能够根据需求，自动生成代码，帮助开发者提升编程效率。 
-      </div>
-    ),
-  },
-  {
-    title: '自动代码补全',
-    // Svg: require('@site/static/img/logo.svg').default,
-    description: (
-      <div style={{ textAlign: 'left' }}>
-        AI 编程工具提供代码自动补全功能，帮助开发者快速编写、优化代码。 
+        AI 编程工具能够根据需求，自动生成代码，也可以根据上下文，自动补全代码，帮助开发者提升编程效率，快速编写、优化代码。
       </div>
     ),
   },
@@ -33,12 +24,12 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <div style={{ textAlign: 'left' }}>
-        AI 编程工具可以自动生成测试用例，提升测试效率，确保代码质量。
+        AI 编程工具可以自动生成测试用例，提升测试效率，把控代码质量。
       </div>
     ),
   },
   {
-    title: '自动代码修复',
+    title: '代码审查及修复',
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <div style={{ textAlign: 'left' }}>
@@ -56,11 +47,20 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
+    title: '自动生成代码流程图',
+    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <div style={{ textAlign: 'left' }}>
+        1. AI 编程工具能够根据代码自动生成相关流程图，提升解读已有代码的效率;<br /> 2. 对于新的需求，可以根据需求生成代码流程图，提升架构师效率。
+      </div>
+    ),
+  },
+  {
     title: '自动生成技术方案',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <div style={{ textAlign: 'left' }}>
-        1. AI 编程工具能够根据代码自动生成相关的技术文档，非常方便对已有仓库进行重构和升级；2. 对于新的需求，可以根据需求生成技术方案，方便快速编程；
+        1. AI 编程工具能够根据代码生成相关技术文档，非常方便对已有仓库进行重构和升级；<br />2. 对于新的需求，可以根据需求生成技术方案，方便快速编程。
       </div>
     ),
   },

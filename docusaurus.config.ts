@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'XW AI 编程工具',
-  tagline: '使用 AI 编程工具写代码，就像玩游戏开了外挂一样简单',
+  title: 'AI 编程的最佳实践',
+  tagline: '所有内容都经过实践验证，真实有效提升编程效率和代码质量',
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
@@ -27,8 +27,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -36,6 +36,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          sidebarCollapsible: false,
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -68,7 +69,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'AICode',
+      title: 'XW AI 编程文档',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -78,9 +79,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'right',
-          label: '学习手册',
+          label: 'AI 编程指南',
         },
-        {to: '/blog', label: '最新动态', position: 'right'},
+        // {to: '/blog', label: '最新动态', position: 'right'},
         {
           href: 'https://github.com/xwaiorg/xwai-docs',
           label: 'GitHub',
