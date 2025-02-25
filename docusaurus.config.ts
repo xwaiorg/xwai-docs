@@ -105,21 +105,21 @@ const config: Config = {
           title: '社区',
           items: [
             {
-              label: '微信',
-              href: 'https://x.com/docusaurus',
+              label: 'AI 编程社区',
+              to: '/docs/AI 编程社区',
             },
           ],
         },
         {
           title: '更多',
           items: [
-            {
-              label: '最新动态',
-              to: '/blog',
-            },
+            // {
+            //   label: '最新动态',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/xwaiorg/xwai-docs',
             },
           ],
         },
